@@ -1,0 +1,40 @@
+@use "./main" as *;
+.error .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    i {
+        color: $primaryColor;
+        font-size: 100px;
+    }
+    h2 {
+        font-weight: 800;
+        font-size: 100px;
+        color: $anotherColor;
+        text-align: center;
+    }
+    h3 {
+        font-size: 50px;
+        color: $anotherColor;
+        text-align: center;
+    }
+    p {
+        line-height: 1.7;
+        color: $anotherColor;
+        text-align: center;
+    }
+    a {
+        display: block;
+        width: fit-content;
+        padding: 1rem 2rem;
+        border-radius: 40px;
+        border: 1px solid $primaryColor;
+        color: $mainColor;
+        transition: background-color .5s, color .5s;
+        &:hover {
+            background-color: $primaryColor;
+            color: #fff;
+        }
+    }
+}

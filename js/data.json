@@ -1,0 +1,142 @@
+{
+    "features": [
+        {
+            "icon": "fa-solid fa-car-side",
+            "text": "Free Shopping",
+            "description": "Free on order over $300"
+        },
+        {
+            "icon": "fa-solid fa-shield-halved",
+            "text": "Security Payment",
+            "description": "100% security payment" 
+        },
+        {
+            "icon": "fa-solid fa-arrow-right-arrow-left",
+            "text": "30 Day Return",
+            "description": "30 day money guarantee"
+        },
+        {
+            "icon": "fa-solid fa-phone",
+            "text": "24/7 Support",
+            "description": "Support every time fast"
+        }
+    ],
+    "Filter": [
+        {
+            "type": "fruits",
+            "head": "Orange",
+            "image": "../img/best-product-1.jpg"
+        },
+        {
+            "type": "fruits",
+            "head": "Red Mulberry",
+            "image": "../img/best-product-2.jpg"
+        },
+        {
+            "type": "fruits",
+            "head": "Banana",
+            "image": "../img/best-product-3.jpg"
+        },
+        {
+            "type": "fruits",
+            "head": "Peach",
+            "image": "../img/best-product-4.jpg"
+        },
+        {
+            "type": "fruits",
+            "head": "Grapes",
+            "image": "../img/best-product-5.jpg"
+        },
+        {
+            "type": "fruits",
+            "head": "Apple",
+            "image": "../img/best-product-6.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-1.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-2.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-3.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-4.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-5.jpg"
+        },
+        {
+            "type": "bread",
+            "head": "Bread",
+            "image": "../img/bread-6.jpg"
+        },
+        {
+            "type": "vegetables",
+            "head": "Tomato",
+            "image": "../img/vegetable-item-1.jpg"
+        },
+        {
+            "type": "vegetables",
+            "head": "Broccoli",
+            "image": "../img/vegetable-item-2.jpg"
+        },
+        {
+            "type": "vegetables",
+            "head": "Banana",
+            "image": "../img/vegetable-item-3.png"
+        },
+        {
+            "type": "vegetables",
+            "head": "Pepper",
+            "image": "../img/vegetable-item-4.jpg"
+        },
+        {
+            "type": "vegetables",
+            "head": "Potato",
+            "image": "../img/vegetable-item-5.jpg"
+        },
+        {
+            "type": "vegetables",
+            "head": "Vegetable",
+            "image": "../img/vegetable-item-6.jpg"
+        },
+        {
+            "type": "meat",
+            "head": "Meat",
+            "image": "../img/meat-1.jpg"
+        },
+        {
+            "type": "meat",
+            "head": "Meat",
+            "image": "../img/meat-2.jpg"
+        },
+        {
+            "type": "meat",
+            "head": "Meat",
+            "image": "../img/meat-3.jpg"
+        },
+        {
+            "type": "meat",
+            "head": "Meat",
+            "image": "../img/meat-4.jpg"
+        },
+        {
+            "type": "meat",
+            "head": "Meat",
+            "image": "../img/meat-5.jpg"
+        }
+        
+    ]
+}
