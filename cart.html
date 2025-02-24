@@ -5,16 +5,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description" content="Hello in Fruitables Website" />
-        <title>Shop</title>
+        <meta name="description" content="Hello To Fruitables Website" />
+        <title>Cart</title>
         <!-- Logo -->
-        <link rel="icon" href="../img/logo 2.png" defer />
+        <link rel="icon" href="./img/logo 2.png" />
         <!-- Main CSS File -->
-        <link rel="stylesheet" href="../style/shop.css" defer />
+        <link rel="stylesheet" href="./style/cart.css" />
         <!-- Normalize CSS File -->
-        <link rel="stylesheet" href="../style/normalize.css" defer />
+        <link rel="stylesheet" href="./style/normalize.css" />
         <!-- Font Awesome Library -->
-        <link rel="stylesheet" href="../style/all.min.css" defer />
+        <link rel="stylesheet" href="./style/all.min.css" />
     </head>
     <body>
         <!-- Start Loading -->
@@ -50,8 +50,8 @@
             <div class="container head flex-space-between">
                 <h2><a target="_blank" href="#">Fruitables</a></h2>
                 <ul class="main-links">
-                    <li><a target="_blank" class="links-effect" href="home.html">Home</a></li>
-                    <li><a target="_blank" class="links-effect active-link" href="shop.html">Shop</a></li>
+                    <li><a target="_blank" class="links-effect" href="#">Home</a></li>
+                    <li><a target="_blank" class="links-effect" href="shop.html">Shop</a></li>
                     <li><a target="_blank" class="links-effect" href="shop detail.html">Shop Detail</a></li>
                     <li class="drop-down">
                         <div>
@@ -60,7 +60,7 @@
                                 <i class="fa-solid fa-angle-down"></i>
                             </span>
                             <ul class="menu">
-                                <li><a target="_blank" class="links-effect" href="cart.html">Cart</a></li>
+                                <li><a target="_blank" class="links-effect active-link" href="cart.html">Cart</a></li>
                                 <li><a target="_blank" class="links-effect" href="chackout.html">Chackout</a></li>
                                 <li><a target="_blank" class="links-effect" href="404 page.html">404 Error</a></li>
                             </ul>
@@ -84,86 +84,95 @@
         <section class="secondary-landing">
             <div class="container">
                 <div class="text">
-                    <h3>Shop</h3>
+                    <h3>Cart</h3>
                     <p>
                         <a href="home.html">Home</a> /
                         <a href="#">Pages</a> /
-                        <a href="shop.html">Shop</a>
+                        <a href="cart.html">Cart</a>
                     </p>
                 </div>
             </div>
         </section>
         <!-- End Landing -->
-        <!-- Start Fruits Shop -->
-        <div class="fruits-shop my-5">
+        <!-- Start Cart Products -->
+        <section class="cart-products py-5">
             <div class="container">
-                <h3 class="my-2 px-1">Fresh fruits shop</h3>
-                <div class="form-group px-1">
-                    <form action="#">
-                        <input type="text" name="field" id="textField" placeholder="Keyword" />
-                        <button aria-checked="true"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                    <div class="list">
-                        <span>Default Sorting:</span>
-                        <select>
-                            <option value="Nothing">Nothing</option>
-                            <option value="Popularity">Popularity</option>
-                            <option value="Organic">Organic</option>
-                            <option value="Fantastic">Fantastic</option>
-                        </select>
+                <div class="buy">
+                    <div class="head rows">
+                        <p>Products</p>
+                        <p>Name</p>
+                        <p>Price</p>
+                        <p>Quantity</p>
+                        <p>Total</p>
+                        <p>Handle</p>
+                    </div>
+                    <div class="body rows">
+                        <figure>
+                            <img src="../img/vegetable-item-3.png" alt="Banana" />
+                        </figure>
+                        <p>Big Banana</p>
+                        <p class="price">3&dollar;</p>
+                        <div>
+                            <button class="minus">&minus;</button>
+                            <p class="quantity">1</p>
+                            <button class="plus">&plus;</button>
+                        </div>
+                        <p class="total">3&dollar;</p>
+                        <i class="fa-solid fa-xmark flex-center"></i>
+                    </div>
+                    <div class="body rows">
+                        <figure>
+                            <img src="../img/vegetable-item-5.jpg" alt="Potatoes" />
+                        </figure>
+                        <p>Potatoes</p>
+                        <p class="price">4&dollar;</p>
+                        <div>
+                            <button class="minus">&minus;</button>
+                            <p class="quantity">1</p>
+                            <button class="plus">&plus;</button>
+                        </div>
+                        <p class="total">3&dollar;</p>
+                        <i class="fa-solid fa-xmark flex-center"></i>
+                    </div>
+                    <div class="body rows">
+                        <figure>
+                            <img src="../img/vegetable-item-2.jpg" alt="Broccoli" />
+                        </figure>
+                        <p>Awesome Broccoli</p>
+                        <p class="price">5&dollar;</p>
+                        <div>
+                            <button class="minus">&minus;</button>
+                            <p class="quantity">1</p>
+                            <button class="plus">&plus;</button>
+                        </div>
+                        <p class="total">3&dollar;</p>
+                        <i class="fa-solid fa-xmark flex-center"></i>
                     </div>
                 </div>
-                <div class="shop-content my-3">
-                    <div class="col-one px-1 col-4">
-                        <h4 class="my-3">Categories</h4>
-                        <div class="category">
-                            
-                        </div>
-                        <div class="price">
-                            <h4 class="my-3">Price</h4>
-                            <input type="range" value="0" min="0" max="500" />
-                            <p class="value">0</p>
-                        </div>
-                        <div class="additional">
-                            <h4 class="my-3">Additional</h4>
-                            <div><input type="radio" name="fruits" id="select-one" checked /> <label for="select-one">Organic</label></div>
-                            <div><input type="radio" name="fruits" id="select-two" /> <label for="select-two">Fresh</label></div>
-                            <div><input type="radio" name="fruits" id="select-three" /> <label for="select-three">Sales</label></div>
-                            <div><input type="radio" name="fruits" id="select-four" /> <label for="select-four">Discount</label></div>
-                            <div><input type="radio" name="fruits" id="select-five" /> <label for="select-five">Expired</label></div>
-                        </div>
-                        <div class="features">
-                            <h4 class="my-3">Featured Products</h4>
-                        </div>
-                        <button class="my-3 py-1">Show More</button>
-                        <div class="banner">
-                            <p>
-                                Fresh <br /> Fruits <br /> Banner
-                            </p>
-                        </div>
+                <form action="#" class="py-5">
+                    <input type="text" placeholder="Coupon Code" />
+                    <input type="submit" value="Apply Copon" />
+                </form>
+                <div class="cart-total p-1">
+                    <h3>Cart Total</h3>
+                    <div class="subtotal">
+                        <p>Subtotal:</p>
+                        <span>96.00&dollar;</span>
                     </div>
-                    <div class="col-two px-1 col-8">
-                        <div class="products">
-                            <div class="products-fruits"></div>
-                            <div class="products-vegetables"></div>
-                            <div class="products-meat"></div>
-                            <div class="products-bread"></div>
-                            <div class="pagination flex-center">
-                                <i id="prev" class="fa-solid fa-angles-left flex-center"></i>
-                                <span class="active-indicator flex-center" attr="1">1</span>
-                                <span class=" flex-center" attr="2">2</span>
-                                <span class=" flex-center" attr="3">3</span>
-                                <span class=" flex-center" attr="4">4</span>
-                                <i id="next" class="fa-solid fa-angles-right flex-center"></i>
-                            </div>
-                        </div>
+                    <div class="shipping">
+                        <p>Shipping</p>
+                        <span>Fire Rate: 3.00&dollar;<br />Shipping to Ukraine.</span>
                     </div>
+                    <div class="total">
+                        <p>Total</p>
+                        <span>99.00&dollar;</span>
+                    </div>
+                    <a href="#">proceed checkout</a>
                 </div>
-            </div>
-        </div>
-        <!-- End Fruits Shop -->
+        </section>
+        <!-- End Cart Products -->
         <!-- Start Contact -->
-        <section class="contact py-5 px-1">
+        <section class="contact py-5">
             <div class="container">
                 <div class="head">
                     <h3>
@@ -231,8 +240,8 @@
         </footer>
         <!-- End Footer -->
         <!-- Main JS File -->
-        <script src="../js/shop.js" defer></script>
-        <!-- Special Component JS File -->
-        <script src="../js/specialComponents.js" defer></script>
+        <script src="./js/cart.js"></script>
+        <!-- Special Components JS File -->
+        <script src="./js/specialComponents.js"></script>
     </body>
 </html>

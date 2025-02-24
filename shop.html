@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Rules -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Hello in Fruitables Website" />
+    <title>Shop</title>
+    <!-- Logo -->
+    <link rel="icon" href="./img/logo 2.png" defer />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./style/shop.css" defer />
+    <!-- Normalize CSS File -->
+    <link rel="stylesheet" href="./style/normalize.css" defer />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./style/all.min.css" defer />
+  </head>
+  <body>
+    <!-- Start Loading -->
+    <div class="loading-parent">
+      <div class="loading position-center"></div>
+    </div>
+    <!-- End Loading -->
+    <!-- Start Navbar -->
+    <nav>
+      <div class="container information flex-space-between">
+        <div class="street-email">
+          <p class="street white-color">
+            <a target="_blank" href="#" class="white-color">
+              <i class="fa-solid fa-location-dot"></i>
+              123 Street, New York
+            </a>
+          </p>
+          <p class="email white-color">
+            <a target="_blank" href="#" class="white-color">
+              <i class="fa-solid fa-envelope"></i>
+              Email@Example.com
+            </a>
+          </p>
+        </div>
+        <div class="links white-color">
+          <a target="_blank" href="#" class="white-color">Privacy Policy</a> /
+          <a target="_blank" href="#" class="white-color">Terms of Use</a> /
+          <a target="_blank" href="#" class="white-color">Sales and Refunds</a>
+        </div>
+      </div>
+    </nav>
+    <nav>
+      <div class="container head flex-space-between">
+        <h2><a target="_blank" href="#">Fruitables</a></h2>
+        <ul class="main-links">
+          <li>
+            <a target="_blank" class="links-effect" href="home.html">Home</a>
+          </li>
+          <li>
+            <a target="_blank" class="links-effect active-link" href="shop.html"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a target="_blank" class="links-effect" href="shop detail.html"
+              >Shop Detail</a
+            >
+          </li>
+          <li class="drop-down">
+            <div>
+              <span class="links-effect drop-down-button">
+                Pages
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+              <ul class="menu">
+                <li>
+                  <a target="_blank" class="links-effect" href="cart.html"
+                    >Cart</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" class="links-effect" href="chackout.html"
+                    >Chackout</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" class="links-effect" href="404 page.html"
+                    >404 Error</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a target="_blank" class="links-effect" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass flex-center"></i>
+          <i class="fa-solid fa-bag-shopping flex-center"></i>
+          <i class="fa-solid fa-user flex-center"></i>
+        </div>
+        <div class="bar-x">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Landing -->
+    <section class="secondary-landing">
+      <div class="container">
+        <div class="text">
+          <h3>Shop</h3>
+          <p>
+            <a href="home.html">Home</a> / <a href="#">Pages</a> /
+            <a href="shop.html">Shop</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+    <!-- Start Fruits Shop -->
+    <div class="fruits-shop my-5">
+      <div class="container">
+        <h3 class="my-2 px-1">Fresh fruits shop</h3>
+        <div class="form-group px-1">
+          <form action="#">
+            <input
+              type="text"
+              name="field"
+              id="textField"
+              placeholder="Keyword"
+            />
+            <button aria-checked="true">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <div class="list">
+            <span>Default Sorting:</span>
+            <select>
+              <option value="Nothing">Nothing</option>
+              <option value="Popularity">Popularity</option>
+              <option value="Organic">Organic</option>
+              <option value="Fantastic">Fantastic</option>
+            </select>
+          </div>
+        </div>
+        <div class="shop-content my-3">
+          <div class="col-one px-1 col-4">
+            <h4 class="my-3">Categories</h4>
+            <div class="category"></div>
+            <div class="price">
+              <h4 class="my-3">Price</h4>
+              <input type="range" value="0" min="0" max="500" />
+              <p class="value">0</p>
+            </div>
+            <div class="additional">
+              <h4 class="my-3">Additional</h4>
+              <div>
+                <input type="radio" name="fruits" id="select-one" checked />
+                <label for="select-one">Organic</label>
+              </div>
+              <div>
+                <input type="radio" name="fruits" id="select-two" />
+                <label for="select-two">Fresh</label>
+              </div>
+              <div>
+                <input type="radio" name="fruits" id="select-three" />
+                <label for="select-three">Sales</label>
+              </div>
+              <div>
+                <input type="radio" name="fruits" id="select-four" />
+                <label for="select-four">Discount</label>
+              </div>
+              <div>
+                <input type="radio" name="fruits" id="select-five" />
+                <label for="select-five">Expired</label>
+              </div>
+            </div>
+            <div class="features">
+              <h4 class="my-3">Featured Products</h4>
+            </div>
+            <button class="my-3 py-1">Show More</button>
+            <div class="banner">
+              <p>
+                Fresh <br />
+                Fruits <br />
+                Banner
+              </p>
+            </div>
+          </div>
+          <div class="col-two px-1 col-8">
+            <div class="products">
+              <div class="products-fruits"></div>
+              <div class="products-vegetables"></div>
+              <div class="products-meat"></div>
+              <div class="products-bread"></div>
+              <div class="pagination flex-center">
+                <i id="prev" class="fa-solid fa-angles-left flex-center"></i>
+                <span class="active-indicator flex-center" attr="1">1</span>
+                <span class="flex-center" attr="2">2</span>
+                <span class="flex-center" attr="3">3</span>
+                <span class="flex-center" attr="4">4</span>
+                <i id="next" class="fa-solid fa-angles-right flex-center"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Fruits Shop -->
+    <!-- Start Contact -->
+    <section class="contact py-5 px-1">
+      <div class="container">
+        <div class="head">
+          <h3>
+            Fruitables
+            <span>Fresh Products</span>
+          </h3>
+          <form action="#">
+            <input type="email" placeholder="Your Email" />
+            <input type="submit" value="Subscribe Now" />
+          </form>
+          <div class="social">
+            <i class="fa-brands fa-twitter flex-center"></i>
+            <i class="fa-brands fa-youtube flex-center"></i>
+            <i class="fa-brands fa-facebook flex-center"></i>
+            <i class="fa-brands fa-linkedin-in flex-center"></i>
+          </div>
+        </div>
+        <div class="cols">
+          <div class="col">
+            <h3>Why People Like us!</h3>
+            <p>typesetting, remaining</p>
+            <p>essentially unchanged. It</p>
+            <p>was popularised in the</p>
+            <p>1960s with the like Aldus</p>
+            <p>PageMaker including of</p>
+            <p>Lorem, ipsum.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col">
+            <h3>Shop Info</h3>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Condition</a>
+            <a href="#">Return Policy</a>
+            <a href="#">FAQ &amp; Help</a>
+          </div>
+          <div class="col">
+            <h3>Account</h3>
+            <a href="#">My Account</a>
+            <a href="#">Shop details</a>
+            <a href="#">Shopping Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Order History</a>
+            <a href="#">International Orders</a>
+          </div>
+          <div class="col">
+            <h3>Contact</h3>
+            <p>Address: 1429 Netus Rd, NY 48247</p>
+            <p>Email: Example@gmail.com</p>
+            <p>Phone: +0123 4567 8910</p>
+            <p>Payment Accepted</p>
+            <img src="./img/payment.png" alt="Payment" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; <span>Your Site Name,All Right Reserved.</span></p>
+        <p>Designed By Ahmad Mayallo</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Main JS File -->
+    <script src="./js/shop.js" defer></script>
+    <!-- Special Component JS File -->
+    <script src="./js/specialComponents.js" defer></script>
+  </body>
+</html>
